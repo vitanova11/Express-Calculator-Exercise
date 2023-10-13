@@ -18,6 +18,7 @@ response: {
   operation: "mean",
   value: 4
 }
+
 The app should “gracefully” handle the following errors:
 
 Passing in an invalid number (NaN errors). For instance, /mean?nums=foo,2,3 should respond with a 400 Bad Request status code and a response that saying something like: foo is not a number.
